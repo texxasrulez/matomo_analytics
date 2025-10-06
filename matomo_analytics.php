@@ -43,40 +43,40 @@ class matomo_analytics extends rcube_plugin
         $console_js = $this->cfg['debug_console'] ? "try { console.info('[matomo_analytics] injecting'); } catch(e) {}" : "";
 
         $script = <<<HTML
-<!-- Matomo -->
-<script>
-(function() {
-  {$dnt_js}
-  var _paq = window._paq = window._paq || [];
-  _paq.push(['trackPageView']);
-  _paq.push(['enableLinkTracking']);
+		<!-- Matomo -->
+		<script>
+		(function() {
+		  {$dnt_js}
+		  var _paq = window._paq = window._paq || [];
+		  _paq.push(['trackPageView']);
+		  _paq.push(['enableLinkTracking']);
 
-  // Robust absolute URL normalization. Supports '/matomo', 'matomo', or full URLs.
-  var base = "{$this->cfg['url']}";
-  try {
-    var a = document.createElement('a');
-    a.href = base;
-    // If missing protocol/host, anchor will resolve relative to current path.
-    // In that case, prefix with origin and ensure single slash.
-    var abs = a.href;
-    if (!/^https?:/i.test(base)) {
-      var origin = (location.origin || (location.protocol + '//' + location.host)).replace(/\/$/, '');
-      abs = origin + '/' + String(base).replace(/^\/+/, '');
-    }
-    base = abs.replace(/\/$/, '');
-  } catch(e) {}
+		  // Robust absolute URL normalization. Supports '/matomo', 'matomo', or full URLs.
+		  var base = "{$this->cfg['url']}";
+		  try {
+			var a = document.createElement('a');
+			a.href = base;
+			// If missing protocol/host, anchor will resolve relative to current path.
+			// In that case, prefix with origin and ensure single slash.
+			var abs = a.href;
+			if (!/^https?:/i.test(base)) {
+			  var origin = (location.origin || (location.protocol + '//' + location.host)).replace(/\/$/, '');
+			  abs = origin + '/' + String(base).replace(/^\/+/, '');
+			}
+			base = abs.replace(/\/$/, '');
+		  } catch(e) {}
 
-  var u = base + '/';
-  _paq.push(['setTrackerUrl', u + 'matomo.php']);
-  _paq.push(['setSiteId', '{$this->cfg['site_id']}']);
-  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-  g.async=true; g.src=u + 'matomo.js'; s.parentNode.insertBefore(g,s);
+		  var u = base + '/';
+		  _paq.push(['setTrackerUrl', u + 'matomo.php']);
+		  _paq.push(['setSiteId', '{$this->cfg['site_id']}']);
+		  var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		  g.async=true; g.src=u + 'matomo.js'; s.parentNode.insertBefore(g,s);
 
-  {$console_js}
-})();
-</script>
-<!-- End Matomo Code -->
-HTML;
+		  {$console_js}
+		})();
+		</script>
+		<!-- End Matomo Code -->
+		HTML;
 
         if (strpos($p['content'], '</body>') !== false) {
             $p['content'] = str_replace('</body>', $script . "\n</body>", $p['content']);

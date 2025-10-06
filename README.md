@@ -1,5 +1,13 @@
 # Roundcube Matomo Analytics
 
+[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/matomo_analytics?style=flat-square)](https://packagist.org/packages/texxasrulez/matomo_analytics)
+[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/matomo_analytics?style=flat-square)](https://packagist.org/packages/texxasrulez/matomo_analytics)
+[![Project license](https://img.shields.io/github/license/texxasrulez/matomo_analytics?style=flat-square)](https://github.com/texxasrulez/matomo_analytics/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/matomo_analytics?style=flat-square&logo=github)](https://github.com/texxasrulez/matomo_analytics/stargazers)
+[![issues](https://img.shields.io/github/issues/texxasrulez/matomo_analytics)](https://github.com/texxasrulez/matomo_analytics/issues)
+[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-blue.svg?style=flat-square&logo=paypal)](https://www.paypal.me/texxasrulez)
+
+
 This plugin integrates **Matomo Analytics** into Roundcube by injecting the official Matomo tracking snippet on rendered pages.
 
 ## Why this exists
