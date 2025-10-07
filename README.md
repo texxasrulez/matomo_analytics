@@ -1,12 +1,13 @@
 # Roundcube Matomo Analytics
 
-[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/matomo_analytics?style=plastic)](https://packagist.org/packages/texxasrulez/matomo_analytics)
-[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/matomo_analytics?style=plastic&logo=packagist&logoColor=white)](https://packagist.org/packages/texxasrulez/matomo_analytics)
-[![Project license](https://img.shields.io/github/license/texxasrulez/matomo_analytics?style=plastic)](https://github.com/texxasrulez/matomo_analytics/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/matomo_analytics?style=plastic&logo=github)](https://github.com/texxasrulez/matomo_analytics/stargazers)
-[![issues](https://img.shields.io/github/issues/texxasrulez/matomo_analytics?style=plastic)](https://github.com/texxasrulez/matomo_analytics/issues)
-[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-money_please-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
-
+[![Packagist](https://img.shields.io/packagist/dt/texxasrulez/matomo_analytics?style=plastic&labelColor=blue&color=gold)](https://packagist.org/packages/texxasrulez/matomo_analytics)
+[![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/matomo_analytics?style=plastic&logo=packagist&logoColor=white&labelColor=blue&color=limegreen)](https://packagist.org/packages/texxasrulez/matomo_analytics)
+[![Project license](https://img.shields.io/github/license/texxasrulez/matomo_analytics?style=plastic&labelColor=blue&color=coral)](https://github.com/texxasrulez/matomo_analytics/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/texxasrulez/matomo_analytics?style=plastic&logo=github&labelColor=blue&color=deepskyblue)](https://github.com/texxasrulez/matomo_analytics/stargazers)
+[![issues](https://img.shields.io/github/issues/texxasrulez/matomo_analytics?style=plastic&labelColor=blue&color=aqua)](https://github.com/texxasrulez/matomo_analytics/issues)
+[![GitHub contributors](https://img.shields.io/github/contributors/texxasrulez/matomo_analytics?style=plastic&logo=github&logoColor=white&labelColor=blue&color=orchid)](https://github.com/texxasrulez/matomo_analytics/graphs/contributors)
+[![GitHub forks](https://img.shields.io/github/forks/texxasrulez/matomo_analytics?style=plastic&logo=github&logoColor=white&labelColor=blue&color=darkorange)](https://github.com/texxasrulez/matomo_analytics/forks)
+[![Donate to this project using Paypal](https://img.shields.io/badge/paypal-money_please-blue.svg?style=plastic&labelColor=blue&color=forestgreen&logo=paypal)](https://www.paypal.me/texxasrulez)
 
 This plugin integrates **Matomo Analytics** into Roundcube by injecting the official Matomo tracking snippet on rendered pages.
 
