@@ -4,7 +4,7 @@
 [![Packagist Version](https://img.shields.io/packagist/v/texxasrulez/matomo_analytics?style=plastic&logo=packagist&logoColor=white)](https://packagist.org/packages/texxasrulez/matomo_analytics)
 [![Project license](https://img.shields.io/github/license/texxasrulez/matomo_analytics?style=plastic)](https://github.com/texxasrulez/matomo_analytics/LICENSE)
 [![GitHub stars](https://img.shields.io/github/stars/texxasrulez/matomo_analytics?style=plastic&logo=github)](https://github.com/texxasrulez/matomo_analytics/stargazers)
-[![issues](https://img.shields.io/github/issues/texxasrulez/matomo_analytics)](https://github.com/texxasrulez/matomo_analytics/issues)
+[![issues](https://img.shields.io/github/issues/texxasrulez/matomo_analytics?style=plastic)](https://github.com/texxasrulez/matomo_analytics/issues)
 [![Donate to this project using Paypal](https://img.shields.io/badge/paypal-donate-blue.svg?style=plastic&logo=paypal)](https://www.paypal.me/texxasrulez)
 
 
